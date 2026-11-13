@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>beHidden — Private Purchasing &amp; Concierge Service | beHidden.com</title>
+  <meta name="description" content="beHidden.com provides personal and business concierge services for private purchases, package receiving and reshipping, subscriptions, digital goods, and custom discreet requests." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="beHidden — Private Purchasing &amp; Discreet Concierge" />
+  <meta property="og:description" content="Keep your purchases, subscriptions, and deliveries private. Reach out with your request and we will tailor a discreet solution for you or your business." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://behidden.com" />
+
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&amp;family=JetBrains+Mono:wght@400;500&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient-backdrop" aria-hidden="true"></div>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand" aria-label="beHidden Home">
+        <svg class="brand-mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="bhHeaderGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#B0202C"/>
+              <stop offset="100%" stop-color="#580D13"/>
+            </linearGradient>
+          </defs>
+          <rect width="64" height="64" rx="14" fill="url(#bhHeaderGrad)"/>
+          <rect x="2" y="2" width="60" height="60" rx="12" stroke="#F6F3EC" stroke-opacity="0.22" stroke-width="1.5"/>
+          <text x="32" y="43" text-anchor="middle" fill="#F7F4EE" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="31" font-weight="800" letter-spacing="-1.5">bH</text>
+        </svg>
+        <div class="brand-wordmark">
+          <span class="brand-name">be<span>Hidden</span></span>
+          <span class="brand-sub">Private Concierge</span>
+        </div>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how-it-works">How It Works</a></li>
+          <li><a href="#examples">Who It's For</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-primary btn-sm">Send a Request</a>
+        <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle Menu" aria-expanded="false" aria-controls="navLinks">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M4 7h16M4 12h16M4 17h16"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal is-visible">
+          <div class="eyebrow">Personal &amp; Business Privacy Concierge</div>
+          <h1 class="hero-title">
+            Buy what you need.<br />
+            Keep your identity <span>private.</span>
+          </h1>
+          <p class="hero-description">
+            Sometimes you don't want a seller knowing who is buying from them—or having your home or business address on file. <strong>beHidden</strong> acts as your trusted intermediary for physical purchases, package reshipping, online subscriptions, digital goods, and custom requests tailored around you.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#contact" class="btn btn-primary">Reach Out With a Request</a>
+            <a href="#how-it-works" class="btn btn-outline">See How It Works</a>
+          </div>
+
+          <div class="hero-assurances">
+            <div class="assurance-item">
+              <strong>Seller Stays Blind</strong>
+              <span>Sellers see us as the buyer—not your name, card, or address.</span>
+            </div>
+            <div class="assurance-item">
+              <strong>Receive &amp; Resend</strong>
+              <span>Ship packages to us first; we repackage and send them to you.</span>
+            </div>
+            <div class="assurance-item">
+              <strong>Tailored to You</strong>
+              <span>Physical products, digital subscriptions, or custom arrangements.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Simple Intermediary Visual Card -->
+        <aside class="dossier-card reveal is-visible" aria-label="How beHidden Protects Your Privacy">
+          <div class="dossier-header">
+            <span class="dossier-label">How Your Privacy Stays Protected</span>
+            <span class="dossier-badge">PRIVATE SHIELD</span>
+          </div>
+
+          <div class="flow-diagram">
+            <div class="flow-node">
+              <div>
+                <div class="flow-node-title">1. You (Individual or Business)</div>
+                <div class="flow-node-sub">Tell us what you want to buy, ship, or subscribe to</div>
+              </div>
+              <span class="flow-tag tag-hidden">Hidden</span>
+            </div>
+
+            <div class="flow-connector" aria-hidden="true">
+              <span class="flow-connector-line"></span>
+              <span>Direct, personal coordination with us</span>
+            </div>
+
+            <div class="flow-node flow-node-shield">
+              <div>
+                <div class="flow-node-title">2. beHidden.com</div>
+                <div class="flow-node-sub">We handle the payment, order, or receiving address</div>
+              </div>
+              <span class="flow-tag tag-proxy">Middleman</span>
+            </div>
+
+            <div class="flow-connector" aria-hidden="true">
+              <span class="flow-connector-line"></span>
+              <span>Order placed without your personal details</span>
+            </div>
+
+            <div class="flow-node">
+              <div>
+                <div class="flow-node-title">3. The Seller or Service</div>
+                <div class="flow-node-sub">Fulfills the order without knowing who it is really for</div>
+              </div>
+              <span class="flow-tag tag-blind">No Link to You</span>
+            </div>
+          </div>
+
+          <div class="dossier-footer">
+            Physical Packages &bull; Subscriptions &bull; Electronic Goods &bull; Custom Requests
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Warm Stone Section: Why People Use beHidden -->
+    <section class="section-stone">
+      <div class="container stone-grid">
+        <div class="reveal">
+          <div class="eyebrow eyebrow-dark">Why Privacy Matters</div>
+          <h2 class="section-title">
+            Not every purchase belongs in a <span>seller's database.</span>
+          </h2>
+          <p class="stone-copy">
+            Almost every online order, membership, or business purchase asks for your real name, credit card, email, and street address. Once handed over, that information stays in merchant systems, mailing lists, and shipping logs indefinitely.
+          </p>
+          <p class="stone-copy">
+            Whether you value personal discretion, want to keep your residential address private, or run a business that prefers not to tip off a vendor or competitor—<strong>beHidden steps in and handles the transaction for you.</strong>
+          </p>
+        </div>
+
+        <div class="stone-principles reveal">
+          <article class="principle-card">
+            <div class="principle-num">01 // PERSONAL SECURITY</div>
+            <h3>Keep Your Home Address &amp; Info Private</h3>
+            <p>Data breaches and leaked customer lists happen constantly. Routing orders through us keeps your personal address, email, and payment details out of unfamiliar stores.</p>
+          </article>
+
+          <article class="principle-card">
+            <div class="principle-num">02 // FAIR, NEUTRAL BUYING</div>
+            <h3>Avoid Unwanted Attention or Markups</h3>
+            <p>Sometimes sellers change their pricing or treat an inquiry differently when they recognize a buyer's name or company. Having us buy on your behalf keeps the transaction ordinary.</p>
+          </article>
+
+          <article class="principle-card">
+            <div class="principle-num">03 // FLEXIBLE &amp; PERSONAL</div>
+            <h3>Built Around Your Specific Request</h3>
+            <p>You won't deal with rigid, automated software. Reach out directly, tell us what you're trying to accomplish, and we'll work out a simple plan that fits.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-dark">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div>
+            <div class="eyebrow">What We Do</div>
+            <h2 class="section-title">Practical ways we <span>step in for you</span></h2>
+          </div>
+          <p class="section-lead">
+            From reshipping a single package to managing online subscriptions or handling custom requests, we adapt to what you need.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1 -->
+          <article class="service-card reveal">
+            <div>
+              <div class="service-icon-row">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                    <path d="M21 8l-9-5-9 5v8l9 5 9-5V8z"/>
+                    <path d="M3.3 7.3L12 12l8.7-4.7M12 22V12"/>
+                  </svg>
+                </div>
+                <span class="service-index">SERVICE // 01</span>
+              </div>
+              <h3>Private Purchases &amp; Package Reshipping</h3>
+              <p>
+                We can buy a physical item on your behalf—or have your purchase shipped to us first—and then resend it directly to you so the seller never sees your final address.
+              </p>
+            </div>
+            <ul class="service-specs">
+              <li>We purchase the item for you, or receive your incoming shipment</li>
+              <li>Original seller receipts or labels removed upon request</li>
+              <li>Repackaged cleanly and resent to your chosen address</li>
+            </ul>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card reveal">
+            <div>
+              <div class="service-icon-row">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                    <rect x="3" y="11" width="18" height="10" rx="2"/>
+                    <path d="M7 11V7a5 5 0 0110 0v4"/>
+                  </svg>
+                </div>
+                <span class="service-index">SERVICE // 02</span>
+              </div>
+              <h3>Subscriptions &amp; Electronic Goods</h3>
+              <p>
+                Even when there is no physical product to ship, we can serve as your intermediary for online subscriptions, memberships, software, digital downloads, or electronic services.
+              </p>
+            </div>
+            <ul class="service-specs">
+              <li>Keep subscriptions off your personal or company cards</li>
+              <li>One-time digital purchases or ongoing monthly renewals</li>
+              <li>Access details or downloaded files handed straight to you</li>
+            </ul>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card reveal">
+            <div>
+              <div class="service-icon-row">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                    <path d="M3 21h18M5 21V7l7-4 7 4v14M9 10h1M9 14h1M14 10h1M14 14h1"/>
+                  </svg>
+                </div>
+                <span class="service-index">SERVICE // 03</span>
+              </div>
+              <h3>Discreet Business Purchases</h3>
+              <p>
+                Businesses often need to order product samples, check out a competitor's offering, or buy tools and supplies without revealing their company name to the seller.
+              </p>
+            </div>
+            <ul class="service-specs">
+              <li>Acquire competitor samples or equipment quietly</li>
+              <li>Keep your company name and email domain off vendor lists</li>
+              <li>Simple billing and straightforward communication</li>
+            </ul>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card reveal">
+            <div>
+              <div class="service-icon-row">
+                <div class="service-icon" aria-hidden="true">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7">
+                    <circle cx="12" cy="12" r="9"/>
+                    <path d="M12 7v5l3 3"/>
+                  </svg>
+                </div>
+                <span class="service-index">SERVICE // 04</span>
+              </div>
+              <h3>Custom Concierge Requests</h3>
+              <p>
+                Have something specific in mind that doesn't fit a standard mold? We're happy to accommodate custom requests and tailor how we work to fit your exact situation.
+              </p>
+            </div>
+            <ul class="service-specs">
+              <li>Private gifts, special timing, or specific shipping preferences</li>
+              <li>One-time favors or ongoing help as needed</li>
+              <li>Just tell us the goal—we'll figure out the practical steps</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section-dark protocol-section">
+      <div class="container">
+        <div class="protocol-header reveal">
+          <div class="eyebrow">Simple 4-Step Process</div>
+          <h2 class="section-title">How <span>beHidden</span> works</h2>
+          <p class="section-lead">
+            No complicated onboarding or red tape. Reach out with what you need, we agree on a straightforward plan, and we take care of the rest.
+          </p>
+
+          <div class="mode-switcher" role="tablist" aria-label="Select Personal or Business View">
+            <button type="button" class="mode-btn active" role="tab" aria-selected="true" data-protocol-mode="personal">
+              For Individuals
+            </button>
+            <button type="button" class="mode-btn" role="tab" aria-selected="false" data-protocol-mode="business">
+              For Businesses
+            </button>
+          </div>
+        </div>
+
+        <div class="protocol-steps reveal" id="protocolSteps" aria-live="polite">
+          <article class="step-card">
+            <div class="step-number">01</div>
+            <h4>Tell Us What You Need</h4>
+            <p>Reach out with what you'd like to buy, receive, or subscribe to. Share only as much detail as you're comfortable with to start.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-number">02</div>
+            <h4>Agree on a Simple Plan</h4>
+            <p>We reply personally, work out the best way to handle your request, and give you a clear total price upfront before anything is ordered.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-number">03</div>
+            <h4>We Make the Purchase</h4>
+            <p>We buy the item, set up the subscription, or receive the package at our address—so your name, card, and home address stay private.</p>
+          </article>
+
+          <article class="step-card">
+            <div class="step-number">04</div>
+            <h4>Sent Quietly to You</h4>
+            <p>For physical items, we repackage and resend them to where you want them. For subscriptions or digital goods, we pass access directly to you.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Everyday & Business Examples -->
+    <section id="examples" class="section-dark">
+      <div class="container">
+        <div class="section-header-split reveal">
+          <div>
+            <div class="eyebrow">Who It's For</div>
+            <h2 class="section-title">Real-world ways people <span>use us</span></h2>
+          </div>
+          <p class="section-lead">
+            You don't need a complicated reason to value privacy. Here are common situations we help with.
+          </p>
+        </div>
+
+        <div class="profiles-grid">
+          <article class="profile-card reveal">
+            <div class="profile-category">01 // Personal Privacy</div>
+            <h3>Private Buyers &amp; High-Profile Individuals</h3>
+            <p>
+              People who want to buy collectibles, luxury items, gifts, or everyday goods online without exposing their name or home address to sellers.
+            </p>
+            <div class="scenario-quote">
+              &ldquo;Buy this item from an online seller, have it shipped to you first, and resend it to my address in plain packaging.&rdquo;
+            </div>
+          </article>
+
+          <article class="profile-card reveal">
+            <div class="profile-category">02 // Digital &amp; Online</div>
+            <h3>Subscriptions &amp; Digital Buyers</h3>
+            <p>
+              Anyone wanting an online subscription, software tool, or digital download without tying their personal email or credit card statement to the vendor.
+            </p>
+            <div class="scenario-quote">
+              &ldquo;Sign up for this online research subscription on my behalf so my personal name and card aren't on their billing list.&rdquo;
+            </div>
+          </article>
+
+          <article class="profile-card reveal">
+            <div class="profile-category">03 // Companies &amp; Teams</div>
+            <h3>Discreet Business Buyers</h3>
+            <p>
+              Business owners and teams ordering samples, hardware, or services where revealing their company name would alert a competitor or inflate the price.
+            </p>
+            <div class="scenario-quote">
+              &ldquo;Order two product samples from this supplier without them seeing our company name, and forward the box to our office.&rdquo;
+            </div>
+          </article>
+        </div>
+
+        <div class="bespoke-callout reveal">
+          <div>
+            <div class="eyebrow" style="margin-bottom: 0.45rem;">Custom Solutions</div>
+            <h3>Every request is different—let's tailor it to you.</h3>
+            <p>
+              Whether it's a one-time purchase, recurring help, or an unusual request you aren't sure how to structure, just reach out. We'll talk through what you need and give you a clear, upfront quote before moving forward.
+            </p>
+          </div>
+          <a href="#contact" class="btn btn-primary" data-select-mandate="Custom Request">Ask About a Custom Request</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="section-dark" style="background: var(--bg-charcoal);">
+      <div class="container faq-layout">
+        <div class="reveal">
+          <div class="eyebrow">Common Questions</div>
+          <h2 class="section-title">Simple, honest <span>answers</span></h2>
+          <p class="section-lead" style="margin-top: 1rem;">
+            Have a question that isn't covered here? Send us a quick note below and we'll happily answer it.
+          </p>
+        </div>
+
+        <div class="faq-list reveal">
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>What does the seller see when you buy something for me?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel">
+              <div class="faq-panel-inner">
+                The seller only sees our payment details and our receiving or email address. Your name, billing card, company name, and personal shipping address are never shared with them.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Can packages be shipped to you and then resent to me?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel">
+              <div class="faq-panel-inner">
+                Yes. We can purchase the item and have it delivered to us—or arrange to receive an order for you—repackage it cleanly without seller slips if you'd like, and ship it on to your address.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>What if there is no physical product—like a subscription or digital item?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel">
+              <div class="faq-panel-inner">
+                We handle those too. For subscriptions, memberships, software, or digital goods, we act as the intermediary payer and pass the login credentials, license, or files directly to you.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>How does pricing work?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel">
+              <div class="faq-panel-inner">
+                Because requests vary from a quick digital purchase to receiving and reshipping physical packages, we quote each request individually. You'll always see the exact item cost, shipping cost (if any), and our service fee upfront before committing.
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button type="button" class="faq-trigger" aria-expanded="false">
+              <span>Are there limits on what you can purchase or ship?</span>
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-panel">
+              <div class="faq-panel-inner">
+                Yes—we only handle 100% legal, legitimate goods and services. Our goal is providing practical privacy for lawful personal and business purchases, so we cannot assist with anything illegal, dangerous, or prohibited by law.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Request Section -->
+    <section id="contact" class="inquiry-section">
+      <div class="container inquiry-grid">
+        <div class="reveal">
+          <div class="eyebrow">Get Started</div>
+          <h2 class="section-title">Tell us what you <span>have in mind</span></h2>
+          <p class="section-lead" style="margin-top: 1rem;">
+            You don't need everything figured out before reaching out. Let us know roughly what you're looking to buy, ship, or set up—even without exact links or addresses at first—and we'll reply personally to work out a solution with you.
+          </p>
+
+          <div class="channel-cards">
+            <div class="channel-item">
+              <div>
+                <span class="channel-label">Direct Email</span>
+                <span class="channel-value">concierge@behidden.com</span>
+              </div>
+              <button type="button" class="copy-chip" data-copy="concierge@behidden.com">Copy Email</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="inquiry-form-card reveal">
+          <h3 class="form-heading">Send a Request</h3>
+          <p class="form-subheading">Fill out the details below to start a private conversation with us.</p>
+
+          <form id="mandateForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientName">Your Name (or First Name) *</label>
+                <input type="text" id="clientName" class="form-control" placeholder="How should we address you?" required />
+              </div>
+
+              <div class="form-group">
+                <label for="clientContact">Email or Phone to Reply To *</label>
+                <input type="text" id="clientContact" class="form-control" placeholder="you@example.com" required />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="mandateType">What kind of help are you looking for? *</label>
+              <select id="mandateType" class="form-control" required>
+                <option value="Physical Purchase & Reshipping">Physical Purchase &amp; Reshipping</option>
+                <option value="Subscription or Electronic Goods">Subscription or Electronic Goods</option>
+                <option value="Business Purchase">Discreet Business Purchase</option>
+                <option value="Custom Request">Custom Request / Something Else</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="mandateBrief">How can we help?</label>
+              <textarea id="mandateBrief" class="form-control" placeholder="Tell us a little about what you'd like to purchase, ship, or arrange. Feel free to keep it general for now if you prefer."></textarea>
+            </div>
+
+            <p class="form-note">
+              Your details stay strictly between us—we never use ad trackers or share your inquiry with anyone.
+            </p>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              Continue to Send Request
+            </button>
+
+            <div class="form-confirmation" id="formConfirmation" role="status" aria-live="polite">
+              <h4>Your message is ready to send</h4>
+              <p>
+                Click below to open this request in your email app addressed to <strong>concierge@behidden.com</strong>, or email us directly anytime.
+              </p>
+              <a href="mailto:concierge@behidden.com" id="mailtoDispatch" class="btn btn-outline btn-sm">
+                Open in Email App &rarr;
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand">
+            <svg class="brand-mark" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <defs>
+                <linearGradient id="bhFooterGrad" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#B0202C"/>
+                  <stop offset="100%" stop-color="#580D13"/>
+                </linearGradient>
+              </defs>
+              <rect width="64" height="64" rx="14" fill="url(#bhFooterGrad)"/>
+              <rect x="2" y="2" width="60" height="60" rx="12" stroke="#F6F3EC" stroke-opacity="0.22" stroke-width="1.5"/>
+              <text x="32" y="43" text-anchor="middle" fill="#F7F4EE" font-family="'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="31" font-weight="800" letter-spacing="-1.5">bH</text>
+            </svg>
+            <div class="brand-wordmark">
+              <span class="brand-name">be<span>Hidden</span></span>
+              <span class="brand-sub">beHidden.com</span>
+            </div>
+          </a>
+          <p class="footer-tagline">
+            Personal and business concierge service for private purchases, package forwarding, digital subscriptions, and tailored requests.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#examples">Who It's For</a></li>
+            <li><a href="#faq">Common Questions</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Reach Out</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:concierge@behidden.com">concierge@behidden.com</a></li>
+            <li><a href="#contact">Send a Request</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 beHidden.com. All rights reserved.</span>
+        <span>Private Purchasing &amp; Concierge Service</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
