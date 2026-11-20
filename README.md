@@ -4,7 +4,7 @@ A clean, zero-dependency static concierge website for **beHidden.com**, offering
 
 ## Project Structure
 
-- `index.html` — Main website featuring the `bH` logo mark, services overview, interactive *For Individuals / For Businesses* step-by-step guide, real-world examples, plain-English FAQ, and a straightforward request form.
+- `index.html` — Main website featuring Google Analytics (`G-T8Y89E3CXQ`), the `bH` logo mark, services overview, interactive *For Individuals / For Businesses* step-by-step guide, real-world examples, plain-English FAQ, and a straightforward request form.
 - `styles.css` — Responsive styling pairing deep obsidian, dark crimson security accents, and warm stone sections.
 - `script.js` — Vanilla JavaScript for the Personal/Business toggle, FAQ accordion, email copy button, and request form handler.
 - `favicon.svg` — Bold `bH` monogram badge icon.

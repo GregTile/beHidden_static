@@ -151,6 +151,11 @@
       try {
         await navigator.clipboard.writeText(value);
         btn.textContent = "Copied!";
+        if (typeof window.gtag === "function") {
+          window.gtag("event", "copy_email", {
+            event_category: "Contact"
+          });
+        }
       } catch {
         btn.textContent = "Select text";
       }
@@ -194,6 +199,13 @@
 
       if (mailtoDispatch) {
         mailtoDispatch.setAttribute("href", `mailto:concierge@behidden.com?subject=${subject}&body=${body}`);
+      }
+
+      if (typeof window.gtag === "function") {
+        window.gtag("event", "generate_lead", {
+          event_category: "Request Form",
+          request_type: requestType
+        });
       }
 
       confirmation.classList.add("visible");
